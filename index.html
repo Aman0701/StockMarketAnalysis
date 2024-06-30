@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Stock Market Analysis</h1>
+    <div id="main">
+        
+        <div id="analyse">
+            <div id="chart">
+                <div id="displaychart">
+                    <canvas id="stockChart" width="500" height="350"></canvas>
+                    <div class="chart-tooltip" id="tooltip"></div>
+                        <div class="x-axis-label" id="xAxisLabel"></div>
+                </div>
+                <div id="durationButton">
+                    <button value="1mo">1 Month</button>
+                    <button value="3mo">3 Month</button>
+                    <button value="1y">1 year</button>
+                    <button value="5y">5 Years</button>
+                </div>
+            </div>
+            <div id="detail">
+    
+            </div>
+        </div>
+        <div id="button">
+    
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="stockMarket.js"></script> 
+</body>
+</html>
